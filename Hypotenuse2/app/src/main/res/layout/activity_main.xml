@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Pythagorean Theorem : solve for hypotenuse"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/triangle_pic"
+                />
+            <TextView
+                android:id="@+id/Cresult"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="C?"
+                android:padding="40dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/Avalue"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:hint="Leg a"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/leg_a_1"
+            android:inputType="number"
+            android:layout_marginTop="30dp"
+            />
+
+        <EditText
+            android:id="@+id/Bvalue"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:hint="Leg b"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/leg_b_1"
+            android:inputType="number"
+            />
+
+        <Button
+            android:id="@+id/SolveButt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SOLVE"
+            android:layout_marginTop="40dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="bottom"
+                android:layout_alignParentBottom="true"
+                android:text="Alongkorn Worasuit 621310487"
+                />
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
